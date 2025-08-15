@@ -17,7 +17,6 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    border: 2px solid rgb(206, 195, 195); 
     gap: 10px;
     border: 1px solid black;
 }
