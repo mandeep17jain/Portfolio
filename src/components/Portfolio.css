@@ -1,0 +1,141 @@
+
+.downdiv-port{
+    background-color: #3a3a3a;
+    width: 55%;
+    height: 97%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 15px;
+    color: rgb(255, 255, 247);
+    box-shadow: inset 100px 100px 200px rgb(33, 33, 33);
+    gap: 30px;
+
+}
+#about-port{
+    margin-top: 20px;
+     width: 97%;
+    height: 82%;
+    padding: 20px;  
+    border: 1px solid rgb(122, 120, 120);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    box-shadow: 0 0 20px rgb(151, 145, 145);
+     overflow: scroll;
+    scrollbar-color:  rgb(74, 71, 71) #3a3a3a;
+      
+}
+#heading-port{
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+#main-tag {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#main-tag img {
+  display: block;
+  width: 300px; /* adjust size */
+  height: auto;
+  border: 1px solid white;
+  
+}
+
+#hover-text {
+    font-size: 15px;
+    font-family: cursive;
+  position: absolute;
+  top:40%;
+  left: 40%;
+  background: rgba(0, 0, 0, 0.6); /* dark background */
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  opacity: 0; /* hidden by default */
+  transition: opacity 0.5s ease; /* smooth fade */
+}
+
+#main-tag:hover #hover-text {
+  opacity: 1; /* show on hover */
+}
+
+#main-tag img{
+    margin: 10px;
+    width: 280px;
+    height: 190px;
+    transition: transform 0.8s ease;
+    opacity: 0.7;
+}
+#main-tag img:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+}
+#caption{
+    color: #a7a5a5;
+    font-family: cursive;
+    font-size: 15px;
+    padding-left: 70px;
+    margin: 0px;
+}
+@media (min-width:250px) and (max-width:360px){
+
+
+    .downdiv-port{
+    width: 87%;
+     height: auto;
+    }
+    #about-port{
+         width: auto;
+         height: auto;
+     
+    }
+    #main-tag img{
+    margin: 10px;
+    width: 180px;
+    height: 100px;
+    transition: transform 0.8s ease;
+    opacity: 0.7;
+        }
+    #hover-text {
+ 
+  top:30%;
+  left:35%;
+
+}
+ #caption{
+    padding-left: 45px;
+      }
+  
+}
+@media (min-width:360px) and (max-width:1024px){
+    .downdiv-port{
+     width: 92%;
+     height: auto;
+     font-size: 15px;
+    }
+    #about-port{
+         width: auto;
+         height: auto;
+     overflow: scroll;
+    }
+   
+}
+ @media (min-width:1025px){
+
+    #about-port{
+        width: 95%;
+        /* height: 89%; */
+    }
+}  
+  

@@ -1,0 +1,114 @@
+
+#profile{
+    width: 300px;
+    height: 92.7%; 
+    padding: 20px;
+    background-color: #3a3a3a;
+    /* border: 5px solid #7a7a6f; */
+    box-shadow: inset 18px 18px 100px rgb(28, 28, 28);
+    border-radius: 15px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position:relative;
+}
+#border{
+     width: 290px;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(207, 204, 204);
+        
+
+}
+#pro-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 15px rgb(16, 16, 16);
+}
+#profile a{
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+#name{
+    padding: 20px;
+    font-size: 30px;
+    border-bottom:1px solid rgb(93, 88, 88);
+    margin-bottom: 10px;
+}
+
+.info-inner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 27px;
+}
+.info-inner img{
+    width: 30px;
+    height: 35px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.labels{
+    font-size: 10px;
+    color: rgb(224, 224, 246);
+    padding-left: 43px;
+}
+
+/* logos */
+.logos{
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: flex;
+    gap: 7px;
+}
+.logos img{
+    width: 20px;
+    height: 20px;
+    filter: grayscale(90%);
+    opacity: 0.4;
+    border-radius: 5px;
+}
+
+@media(min-width:250px) and (max-width:360px){
+    #profile{
+        width:85.5%;
+    }
+     #border{
+        width: 100%;
+        box-sizing: border-box;
+        
+    }
+    #name{
+        font-size: 20px;
+    }
+    .info-inner{
+        font-size: 14px;
+    }
+    .info-inner img{
+    width: 35px;
+    height: 35px;
+    border-radius: 45px;  
+    margin-bottom: 15px;
+   }
+    .labels{
+    padding-left: 50px;
+   }
+}
+@media(min-width:360px) and (max-width:1024px){
+        #profile{
+            width: 92.5%;
+        }
+        #border{
+            width: 99%;
+        }
+}

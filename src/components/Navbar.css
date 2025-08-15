@@ -1,0 +1,77 @@
+#navbar{
+    background-color: #3a3a3a;
+    box-shadow: inset 5px 5px 27px rgb(31, 31, 31);
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    /* position: fixed; */
+    border-radius: 15px;
+    border: 1px solid rgb(98, 98, 97);
+   
+}
+#nav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 3px;
+    height: 95%;
+    box-sizing: border-box;
+}
+.active{
+    background-color: rgb(84, 91, 96);
+}
+.no_underline{
+   
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    font-size: 20px;
+}
+#no-underline{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 2px 2px 2px 2px;
+}
+
+@media (min-width:250px) and (max-width:1025px){
+    #navbar{
+        width: auto;
+    }
+    #nav-list{
+        width: auto;
+        gap: 10px;
+        padding-left: 0px;
+    }
+   .no_underline{
+        padding: 3px 7px 3px 7px;
+        font-size: 10px;
+    }
+    #no-underline{
+        padding: 3px 12px 3px 12px;
+        font-size: 10px;
+    }
+}
+@media (min-width:1025px){
+    #nav-list{
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+     .no_underline{
+        padding: 3px 7px 3px 7px;
+        font-size: 12px;
+    }
+    #no-underline{
+        padding: 3px 12px 3px 12px;
+        font-size: 12px;
+    }
+}
