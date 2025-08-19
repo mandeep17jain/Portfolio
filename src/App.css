@@ -1,0 +1,36 @@
+.main-div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center; 
+   align-items: center;
+}
+
+
+  .second{
+  box-sizing: border-box;
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; 
+    gap: 10px;
+  
+}
+
+@media (max-width:1025px){
+  .main-div{
+    /* width: auto; */
+    height: auto;
+  }
+  .second{
+    flex-direction: column-reverse;
+    /* width: auto; */
+    height: auto;
+    padding: 0%;
+  }
+  
+}
