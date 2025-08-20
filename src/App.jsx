@@ -8,7 +8,7 @@ import {BrowserRouter, Routes, Route, createBrowserRouter, RouterProvider} from 
 import { Contact } from './components/Contact'
 import Resume from './components/Resume'
 import Portfolio from './components/Portfolio'
-// import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from './components/ScrollToTop'
 
 
 const router=createBrowserRouter(
@@ -16,7 +16,7 @@ const router=createBrowserRouter(
     { path:"/", element:
     <div className='main-div'>
       <div className='second'>
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <Aboutme/>
         <Sidebar/>
       </div>
