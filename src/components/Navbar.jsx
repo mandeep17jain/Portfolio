@@ -12,10 +12,10 @@ const Navbar = () => {
           <NavLink className={({isActive})=>(isActive?'active':'')} id="no-underline" to="/">About </NavLink>
         </li>
         <li>
-        <NavLink  className="no_underline" to="/Resume">Resume</NavLink>
+        <NavLink  className="no_underline" to="/resume">Resume</NavLink>
         </li>
         <li>
-        <NavLink className="no_underline" to="/Portfolio">Portfolio</NavLink>
+        <NavLink className="no_underline" to="/portfolio">Portfolio</NavLink>
         </li>
         <li>
         <NavLink className="no_underline" to="/contact">Contact</NavLink>

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mandeep17jain.github.io/Portfolio",
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
