@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mandeep Nalwaya</title>
     <link rel="shortcut icon" href="/avatar1.jpg" type="image/jpg">
+    <script>
+  // Save the URL so React Router can restore it
+  if (sessionStorage) {
+    sessionStorage.redirect = location.href;
+  }
+</script>
+
   </head>
   <body>
     <div id="root"></div>
