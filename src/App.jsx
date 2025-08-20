@@ -64,65 +64,6 @@ function App() {
   return (
     <>
     <RouterProvider router={router}/>
-
-    {/* <HashRouter>
-      <Routes>
-        
-        <Route
-          path="/"
-          element={
-            <>
-            <div className='main-div'>      
-       <div className='second'>
-              <Aboutme />
-              <Sidebar />
-              </div>
-              </div>
-            </>
-          }
-        />
-        <Route
-          path="/resume"
-          element={
-            <>
-            <div className='main-div'>      
-       <div className='second'>
-              <Resume />
-              <Sidebar />
-              </div>
-              </div>
-            </>
-          }
-        />
-        <Route
-          path="/portfolio"
-          element={
-            <>
-            <div className='main-div'>      
-       <div className='second'>
-              <Portfolio />
-              <Sidebar />
-              </div>
-              </div>
-            </>
-          }
-        />
-        <Route
-          path="/contact"
-          element={
-            <>
-            <div className='main-div'>      
-       <div className='second'>
-              <Contact />
-              <Sidebar />
-              </div>
-              </div>
-            </>
-          }
-        />
-      </Routes>
-    </HashRouter>
-     */}
     </>
   )
 }
