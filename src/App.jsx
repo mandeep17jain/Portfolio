@@ -53,9 +53,9 @@ const router=createBrowserRouter(
       }
 
   ],
-  {
-    basename:"/Portfolio"
-  }
+  // {
+  //   basename:"/Portfolio"
+  // }
 )
 
 function App() {
