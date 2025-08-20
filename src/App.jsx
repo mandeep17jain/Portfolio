@@ -4,7 +4,6 @@ import Aboutme from './components/Aboutme'
 import './App.css'
 import Sidebar from './components/Sidebar'
 import {BrowserRouter, Routes, Route, createBrowserRouter, RouterProvider} from "react-router-dom"
-// import { HashRouter,Routes, Route } from 'react-router-dom'
 import { Contact } from './components/Contact'
 import Resume from './components/Resume'
 import Portfolio from './components/Portfolio'
@@ -52,10 +51,7 @@ const router=createBrowserRouter(
       </div>
       }
 
-  ],
-  // {
-  //   basename:"/Portfolio"
-  // }
+  ]
 )
 
 function App() {
