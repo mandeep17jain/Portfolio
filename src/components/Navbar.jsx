@@ -18,7 +18,7 @@ const Navbar = () => {
         <NavLink className="no_underline" to="/Portfolio">Portfolio</NavLink>
         </li>
         <li>
-        <NavLink className="no_underline" to="/Pontact">Contact</NavLink>
+        <NavLink className="no_underline" to="/Contact">Contact</NavLink>
         </li>
         
       </ul>
