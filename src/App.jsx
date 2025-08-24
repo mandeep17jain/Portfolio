@@ -83,7 +83,7 @@ function App() {
           <div className='main-div'>
        <div className='second'>
                 
-         <Resumeme/>
+         <Resume/>
         <Sidebar/>
        </div>
      </div>
