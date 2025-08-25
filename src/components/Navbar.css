@@ -7,11 +7,17 @@
     align-items: center;
     justify-content: center;
     padding: 3px;
-    /* position: fixed; */
     border-radius: 15px;
     border: 1px solid rgb(98, 98, 97);
-   
-}
+
+     position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* keeps it above other content */
+        background: white; /* add background so content doesn't overlap */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional shadow */
+            }
 #nav-list{
     list-style-type: none;
     display: flex;
