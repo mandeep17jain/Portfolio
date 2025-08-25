@@ -45,12 +45,9 @@
 @media (min-width:250px) and (max-width:360px){
     #navbar{
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000; /* keeps it above other content */
-        background: white; /* add background so content doesn't overlap */
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional shadow */
+        bottom: 0;
+        width: 100vw;
+        z-index: 1000;
     }
 }
 @media (min-width:250px) and (max-width:1025px){
