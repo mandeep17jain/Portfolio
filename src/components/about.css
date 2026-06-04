@@ -1,0 +1,122 @@
+#about {
+    width: 100%;
+    height: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+
+}
+
+#about-description{
+    font-size: 20px;
+    height: 250px;
+     padding: 2rem;
+     padding-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#wht-doing{
+    font-size: 25px;
+    color: greenyellow;
+}
+#main-cards {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    height: 270px;
+}
+h1{
+    font-size: 40px;
+    color: greenyellow;
+
+}
+.cards {
+    overflow: scroll;
+    scrollbar-width: none;
+font-size: 17px;
+    padding: 12px;
+    display: flex;
+    gap: 10px;
+    width: 40%;
+    height: 70%;
+    border-radius: 10px;
+    border: 1px solid rgb(32, 50, 2);
+    box-shadow: 1px 1px 12px 3px rgb(9, 66, 9);
+}
+
+.about-icons {
+    width: 40px;
+    height: 40px;
+}
+
+@media(max-width:800px) {
+    #about {
+        padding: 5px ;
+        width: 100%;
+        max-width: 90%;
+        height: 60vh;
+        justify-content: unset;
+    }
+#about-description{
+    padding: 1rem;
+    padding-bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    height: 150px;
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#wht-doing{
+    font-size: 15px;
+}
+h1{
+    font-size: 25px ;
+}
+
+    #main-cards {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 240px;
+        padding: 10px;
+    }
+
+    .cards {
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        gap: 10px;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+}
+
+@media(max-width:1046px) and (min-width:800px)
+{
+    #about-description p{
+        font-size: 17px;
+    }
+    .cards {
+        font-size: 15px;
+    }
+}
