@@ -98,7 +98,11 @@ iframe{
         width: 35%;  
     }
     #contact-btn img{
-        width: 19%;
+        width: 21%;
+        height: 65%;
+    }
+    #contact-btn button{
+        font-size: 13px;
     }
 
 }

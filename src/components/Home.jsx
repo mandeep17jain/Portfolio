@@ -11,7 +11,7 @@ const Home = () => {
         
           <div id="left">
             <p id='hello'>Hello, I'm</p>
-            <p id='name'>Mandeep Nalwaya</p>
+            <p id='name'>Mandeep Nalwaya  </p>
             <p id='description'>Learning and growing as a full stack developer</p>
             
             <a  id='btn-resume'href="/Mandeep-resume.pdf" download> <button id='resume-btn'><img src={aero} alt="" /> Resume</button></a>

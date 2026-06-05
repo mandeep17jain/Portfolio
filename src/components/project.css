@@ -155,6 +155,9 @@ justify-content: center;
    grid-template-columns: 0.9fr;
    grid-template-rows: 300px 300px 300px;
     }
+    #used-tech{
+        gap: 10px;
+    }
         
 
 }
