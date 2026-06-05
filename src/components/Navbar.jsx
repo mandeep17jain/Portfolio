@@ -3,7 +3,6 @@ import './navbar.css'
 import menu from '../assets/menu.png'
 import M from '../assets/M.png'
 import { Link } from 'react-scroll'
-import { useEffect } from 'react'
 const Navbar = () => {
 
   const [isOpen,setisOpen] = useState(false);
