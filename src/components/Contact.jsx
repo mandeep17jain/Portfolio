@@ -21,7 +21,7 @@ const Contact = () => {
           <a href="https://www.instagram.com/mandeep_jain17/" target="_blank" rel="noopener noreferrer"><img src={insta} alt="insat" /><button>Instagram</button></a>
         </div>
 
-
+        
     </div>
   )
 }
